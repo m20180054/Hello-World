@@ -29,3 +29,7 @@ df = pd.DataFrame(my_data,
 
 
 #Get the mean of the Average Spending
+
+mean_avgspend = np.mean(my_data["AvgSpend"])
+
+print (mean_avgspend)
